@@ -106,7 +106,7 @@ ui = gr.Interface(
     fn=chat,
     inputs=gr.Textbox(label="Ask your question"),
     outputs=gr.Textbox(label="ShopBot Response"),
-    title="🛍️ Retail & E-commerce AI Chatbot"
+    title=" Retail & E-commerce AI Chatbot"
 )
 
 ui.launch(share=True)
