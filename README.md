@@ -29,11 +29,11 @@ pip install streamlit transformers datasets pyngrok accelerate gradio
 
 ## Project Structure
 
-  * **Data Preparation:** 500 samples are selected from the Amazon dataset. Labels are mapped to specific assistant responses:
+  * **Data Preparation:** 5000 samples are selected from the Amazon dataset. Labels are mapped to specific assistant responses:
       * **Positive (Label 1):** "Thanks for your positive review\! We are happy you liked the product."
       * **Negative (Label 0):** "We are sorry for your experience. We will improve our service."
   * **Tokenization:** Implements a custom tokenization function that ensures `labels` are correctly mapped for causal language modeling.
-  * **Training:** Configured for 1 epoch with a small batch size to prevent OOM (Out of Memory) errors.
+  * **Training:** Configured for 2 epoch with a small batch size to prevent OOM (Out of Memory) errors.
   * **Deployment:** A Gradio-powered web interface allows users to input their own reviews and see the bot's response.
 
 ##  Model Details
