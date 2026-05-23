@@ -41,4 +41,4 @@ pip install streamlit transformers datasets pyngrok accelerate gradio
   * **Base Model:** `distilgpt2`
   * **Max Length:** 128 tokens
   * **Batch Size:** 2
-  * **Training Epochs:** 1
+  * **Training Epochs:** 2
